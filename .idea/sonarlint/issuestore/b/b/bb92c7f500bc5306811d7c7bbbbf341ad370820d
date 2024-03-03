@@ -1,0 +1,9 @@
+
+»
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ñ°Ù®şÿÿÿÿ8î¾Ë¤à1
+K
+java:S2115")Add password protection to this database.(æ¢ÊÊüÿÿÿÿ8…ÁÏ¤à1
+G	java:S106"+Replace this use of System.out by a logger.(Ê˜ùò8ã­Î¤à1
+L	java:S106"+Replace this use of System.err by a logger.(ÕÖ°Ğÿÿÿÿÿ8š¾Ò¤à1
+L
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8ˆ¹¢¥à1
