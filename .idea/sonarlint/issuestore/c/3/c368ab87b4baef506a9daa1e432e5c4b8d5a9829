@@ -1,22 +1,3 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ÕÛüè8‡ôÈ¥à1
-X	java:S125#"<This block of commented-out lines of code should be removed.(çŒÀÅ8ÿ¹¡¥à1
-\
-java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8‚ºÈ¥à1
-Q
-java:S1128"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8‚ºÈ¥à1
-[
-java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ8‚ºÈ¥à1
-M
-java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8‚ºÈ¥à1
-M
-java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‚ºÈ¥à1
-P
-java:S1128
-".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8‚ºÈ¥à1
-L
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8‚ºÈ¥à1
-Z
-java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8‚ºÈ¥à1
-^
-java:S1128"ARemove this unused import 'java.sql.DriverManager.getConnection'.(£¶ÖŠ8‚ºÈ¥à1
+G	java:S106"+Replace this use of System.out by a logger.(ÕÛüè8¹«Î¿å1
+X	java:S125"<This block of commented-out lines of code should be removed.(çŒÀÅ8º«Î¿å1

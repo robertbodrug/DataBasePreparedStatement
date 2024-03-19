@@ -1,2 +1,7 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(ö¿¸¨ùÿÿÿÿ8·®¥à1
+g	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8÷òúÃå1
+g	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8÷òúÃå1
+L	java:S106,"+Replace this use of System.out by a logger.(Şüà‡øÿÿÿÿ8óúÃå1
+L	java:S106@"+Replace this use of System.out by a logger.(Şüà‡øÿÿÿÿ8óúÃå1
+L	java:S106V"+Replace this use of System.out by a logger.(Şüà‡øÿÿÿÿ8‘óúÃå1
+L	java:S106i"+Replace this use of System.out by a logger.(Şüà‡øÿÿÿÿ8’óúÃå1

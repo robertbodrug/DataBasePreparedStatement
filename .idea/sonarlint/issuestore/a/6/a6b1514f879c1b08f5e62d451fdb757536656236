@@ -1,7 +1,12 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(Ó¼ÜÏıÿÿÿÿ8È¸¼¦à1
-L	java:S106	"+Replace this use of System.out by a logger.(Û©™·ûÿÿÿÿ8É¸¼¦à1
-L	java:S106
-"+Replace this use of System.out by a logger.(û…Ó¡úÿÿÿÿ8É¸¼¦à1
-G	java:S106"+Replace this use of System.out by a logger.(‚şşç8Ê¸¼¦à1
-G	java:S106"+Replace this use of System.out by a logger.(èÈ¶ù8ô±Á¦à1
+‹
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(µ…ÓÂ8™÷ğÃå1
+“
+java:S1130"vRemove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.(µ…ÓÂ8™÷ğÃå1
+L	java:S106"+Replace this use of System.out by a logger.(æ¨¤šøÿÿÿÿ8›÷ğÃå1
+W
+java:S1128"5Remove this unused import 'com.example.model.Worker'.(ıª¡æûÿÿÿÿ8œ÷ğÃå1
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8œ÷ğÃå1
+P
+java:S1128	".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8œ÷ğÃå1

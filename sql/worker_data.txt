@@ -1,0 +1,1 @@
+1,Andrew,2000-01-22,Trainee,300,2,Robert,2004-11-16,Senior,9000,3,Andrew,2001-10-11,Junior,800,4,John,1999-06-17,Trainee,250,5,William,1995-03-29,Middle,2000,6,Jennifer,2000-05-07,Junior,900,7,Patricia,1991-09-05,Middle,3000,8,Thomas,1984-12-31,Middle,4000,9,Karen,1978-04-12,Trainee,300,10,Christopher,1950-11-02,Senior,9000,

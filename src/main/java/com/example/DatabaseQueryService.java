@@ -34,7 +34,7 @@ public class DatabaseQueryService {
 
         List<MaxProjectsClient> result = new LinkedList<>();
 
-        try (PreparedStatement statement = Database.getInstance().getConnection().prepareStatement(QueryToString.toQuery(new File("sql\\find_max_projects_client.sql")));
+        try (PreparedStatement statement = Database.getConnection().prepareStatement(QueryToString.toQuery(new File("sql\\find_max_projects_client.sql")));
              Scanner scanner = new Scanner(System.in);) {
 
             System.out.println("How many customers to show?");
@@ -55,7 +55,7 @@ public class DatabaseQueryService {
 
         List<MaxSalaryWorker> result = new LinkedList<>();
 
-        try (Statement statement = Database.getInstance().getConnection().createStatement()) {
+        try (Statement statement = Database.getConnection().createStatement()) {
             ResultSet resultSet = statement.executeQuery(QueryToString.toQuery(new File("sql\\find_max_salary_worker.sql")));
             while (resultSet.next()) {
                 result.add(new MaxSalaryWorker(resultSet.getString(1), resultSet.getInt(2)));
@@ -71,10 +71,9 @@ public class DatabaseQueryService {
 
         List<LongestProject> result = new LinkedList<>();
 
-        try (PreparedStatement statement = Database.getInstance().getConnection().prepareStatement(QueryToString.toQuery(new File("sql\\find_longest_project.sql")));
+        try (PreparedStatement statement = Database.getConnection().prepareStatement(QueryToString.toQuery(new File("sql\\find_longest_project.sql")));
             Scanner scanner = new Scanner(System.in);) {
-
-                System.out.println("How many projects to show?");
+            System.out.println("How many projects to show?");
                 statement.setInt(1, scanner.nextInt());
                 ResultSet resultSet = statement.executeQuery();
                  while (resultSet.next()){
@@ -91,7 +90,7 @@ public class DatabaseQueryService {
 
         List<YoungestEldestWorkers> result = new LinkedList<>();
 
-        try (Statement statement = Database.getInstance().getConnection().createStatement()) {
+        try (Statement statement = Database.getConnection().createStatement()) {
 
             ResultSet resultSet = statement.executeQuery(QueryToString.toQuery(new File("sql\\find_youngest_eldest_workers.sql")));
             while (resultSet.next()){
@@ -107,7 +106,7 @@ public class DatabaseQueryService {
 
         List<ProjectPrices> result = new LinkedList<>();
 
-        try (Statement statement = Database.getInstance().getConnection().createStatement()) {
+        try (Statement statement = Database.getConnection().createStatement()) {
 
             ResultSet resultSet = statement.executeQuery(QueryToString.toQuery(new File("sql\\print_project_prices.sql")));
             while (resultSet.next()){

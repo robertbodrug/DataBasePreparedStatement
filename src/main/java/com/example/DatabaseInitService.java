@@ -1,22 +1,12 @@
 package com.example;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Paths;
 import java.sql.*;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.function.Consumer;
-
-import static com.example.Database.*;
-import static java.sql.DriverManager.getConnection;
 
 public class DatabaseInitService {
+
     public static void main(String[] args) throws SQLException {
-        Connection connection = getInstance().getConnection();
+        Connection connection = Database.getConnection();
         try (Statement statement = connection.createStatement();)
         {
             connection.setAutoCommit(false);
